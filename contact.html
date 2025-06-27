@@ -17,12 +17,54 @@
 
   <title>Contact Us - PaisaGuru</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; }
-    header { background: #4CAF50; color: white; padding: 20px; text-align: center; font-size: 24px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 16px; }
-    nav a:hover { text-decoration: underline; }
-    .content { padding: 20px; max-width: 90%; margin: auto; background: white; border-radius: 10px; margin-top: 20px; text-align: center; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    header {
+      background: #1f2d3d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #17c3b2;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      background-color: #138b82;
+      color: #fff;
+    }
+
+    .content {
+      padding: 30px 20px;
+      max-width: 90%;
+      margin: 30px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      text-align: center;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
     .btn {
       display: inline-block;
       margin-top: 20px;
@@ -32,7 +74,9 @@
       text-decoration: none;
       border-radius: 6px;
       font-size: 16px;
+      transition: background-color 0.3s ease;
     }
+
     .btn:hover {
       background-color: #006fa3;
     }
@@ -40,12 +84,14 @@
 </head>
 <body>
   <header>Contact Us</header>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="privacy.html">Privacy</a>
     <a href="contact.html">Contact</a>
   </nav>
+
   <div class="content">
     <p>Agar aapko koi sawaal hai ya madad chahiye, toh aap hume Telegram par contact kar sakte ho:</p>
     <a class="btn" href="https://t.me/bholu943" target="_blank">Message on Telegram</a>
