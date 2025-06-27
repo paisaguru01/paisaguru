@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://paisaguru01.github.io/paisaguru/sitemap.xml
